@@ -189,3 +189,16 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+
+/* UPDATE QUERY
+UPDATE pediatrics.patient
+SET fname = @fname, lname = @lname, dob = @dob, gender = @gender, contact = @contact, address = @address
+WHERE Patient_Id = @Patient_Id;
+
+
+DELETE QUERY
+DELETE FROM pediatrics.invoices
+WHERE invoiceid = @invoiceid;
+*/
